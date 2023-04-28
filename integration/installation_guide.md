@@ -14,8 +14,6 @@ This integration allows you to implement a password rotation policy for your use
 
 1. Configure the integration using the following fields:
 
-* **Password Expiry In Days:** Set this to the number of days a password is valid before expiry.
-
 * **Error Message:** Set this to what you wish to return to the calling application.  This will be returned in the query string as `error_description`.
 
 1. Add the integration to your Library by selecting **Create**.
