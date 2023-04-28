@@ -1,4 +1,4 @@
-This integration allows you to implement a password rotation policy for your users. You may choose to do this to increase your security posture. This Action can be used in tandem with the `Password History` setting available in your Database connections that can prevent users from rotating their password to values they have previously used. Learn more <https://auth0.com/docs/authenticate/database-connections/password-options#password-history>.
+This integration allows you to require users to verify their emails before signing in.  Auth0 sends verification emails to users automatically when they register.  Once they receive the email, they can click to link to set their email.  Additionally, you can leverage the Auth0 Management API to set a user's email verification status manually if you have verified their email outside of the default Auth0 workflow.
 
 ## Prerequisites
 
